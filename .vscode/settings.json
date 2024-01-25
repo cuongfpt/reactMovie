@@ -1,0 +1,12 @@
+{
+    "launch": {
+
+        "configurations": [],
+        "compounds": [],
+        "emmet.includeLanguages": {
+            "javascript": "javascriptreact"
+        },
+        "emmet.triggerExpansionOnTab": true
+    },
+    "angular.log": "verbose"
+}
