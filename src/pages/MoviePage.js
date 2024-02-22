@@ -1,5 +1,4 @@
 import React from "react";
-import MovieList from "../components/movie/MovieList";
 import { fetcher } from "../config";
 import useSWR from "swr";
 import MovieCard from "../components/movie/MovieCard";

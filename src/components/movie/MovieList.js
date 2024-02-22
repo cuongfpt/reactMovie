@@ -16,6 +16,7 @@ const MovieList = ({type = "now_playing"}) => {
     if (data && data.results) {
       setMovies(data.results);
     } 
+
   },[data]);
   return (
     <div className="movie-list">

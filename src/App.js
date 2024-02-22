@@ -22,7 +22,10 @@ function App() {
             }
           ></Route>
           <Route path="/movies" element={<MoviePage></MoviePage>}></Route>
-          <Route path="/movie/:movieId" element={<MovieDetailsPage></MovieDetailsPage>}></Route>
+          <Route
+            path="/movie/:movieId"
+            element={<MovieDetailsPage></MovieDetailsPage>}
+          ></Route>
         </Route>
       </Routes>
     </Fragment>
